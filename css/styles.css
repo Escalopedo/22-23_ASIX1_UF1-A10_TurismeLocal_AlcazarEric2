@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+
+#pegado {
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-style: oblique;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h6 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/jero.jpg);
+
+}
+
+#mini {
+    font-size: small;
+    font-family: cursive;
+}
+
+#dioses {
+    font-size: 0,5rem;
+
+}
+
+#curio{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0,5rem;
+    text-align: center;
+}
+
+#xd {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0,5rem;
+}
+
+img{
+    width: 100%;
+}
+
+#img-pir {
+    background-image: url(../img/piramide.jpg);
+    height: 70vh;
+    background-size:cover;
+    background-position: right;
+}
+
+#img-rey {
+    background-image: url(../img/vallereyes.jpg);
+    height: 70vh;
+    background-size:cover;
+    background-position: right;
+}
+
+#img-cairo {
+    background-image: url(../img/museo_del_cairo_11.jpg);
+    height: 70vh;
+    background-size:cover;
+    background-position: right;
+}
+
+#img-map {
+    background-image: url(../img/mapa2.jpg);
+    height: 130vh;
+    background-size:cover;
+    background-position: right;
+}
+
+
+#img-mercado {
+    background-image: url(../img/Khan-El-Khalili-Bazaar-1024x685.jpg);
+    height: 130vh;
+    background-size:cover;
+    background-position: right;
+}
+
+#maps {
+    height: 100vh;
+    background-size:cover;
+    background-position: right;
+    padding-left: 15%;
+}
+
+
+#img-mercado {
+    background-image: url(../img/Khan-El-Khalili-Bazaar-1024x685.jpg);
+    height: 70vh;
+    background-size:cover;
+    background-position: right;
+}
+
+.espacio{
+    padding: 2%;
+}
+
+
+#header{
+    background-image:url(../img/portada.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna2{
+    width: 60%;
+    float: left;
+}
+
+.columna1{
+    width: 20%;
+    float: left;
+    background-color:#94b3cf;
+}
+
+.columna3{
+    width: 20%;
+    float: right;
+    background-color:#94b3cf;
+}
+
+.cajon1{
+    width: 33.33%;
+    float: left;
+}
+
+
+#img-dios1{
+    height: 90vh;
+    background-image: url(../img/ra.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-dios2{
+    height: 90vh;
+    background-image: url(../img/amon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-dios3{
+    height: 90vh;
+    background-image: url(../img/osiris.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-dios4{
+    height: 90vh;
+    background-image: url(../img/isis.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-dios5{
+    height: 90vh;
+    background-image: url(../img/horus.png);
+    background-size: cover;
+    background-position: center;
+}
+#img-dios6{
+    height: 90vh;
+    background-image: url(../img/anubis.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-not1{
+    height: 20vh;
+    background-image: url(../img/not1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-not2{
+    height: 20vh;
+    background-image: url(../img/not2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-not3{
+    height: 20vh;
+    background-image: url(../img/samurais-egipto-1280x720.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-not4{
+    height: 20vh;
+    background-image: url(../img/not4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#detalleseleccion {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* */
+
+article{
+    background-color: rgb(226, 229, 179);
+}
+
+a{
+    text-decoration:none;
+    color: black;
+
+}
+
+
+.blanco{
+    background-color: rgb(255, 214, 214);
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .cajon1{
+        width: 100%;
+    }
+
+    #maps {
+        width:80%;
+    }
+    .columna2,.columna1,.columna3{
+        width: 100%;
+    }
+
+    #img-dios1,#img-dios2,#img-dios3,#img-dios4,#img-dios5,#img-dios6 {
+        width: 40%;
+        margin: auto;
+    }
+
+}
